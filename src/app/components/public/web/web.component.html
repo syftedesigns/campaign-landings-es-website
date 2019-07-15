@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-5 col-lg-6 order-md-2 wow slideInRight">
-                <img src="./assets/campaign/pages/1920/webdesign-boost.png" class="img-fluid mw-md-150 mw-lg-auto mb-6 mb-md-0 offset-xl-2" alt="Cómo hacer un sitio web poderoso">
+                <img title="Diseños de website" description="Genera mas ventas con un diseño increible!" src="./assets/campaign/pages/1920/webdesign-boost.png" class="img-fluid mw-md-150 mw-lg-auto mb-6 mb-md-0 offset-xl-2" alt="Cómo hacer un sitio web poderoso">
             </div>
             <div class="col-12 col-md-7 col-lg-6 order-md-1 wow slideInLeft">
                 <h1 style="font-size: 40px" class="display-3 text-center text-md-left text-white Aquatico-Regular font-22">
@@ -20,9 +20,14 @@
                                 <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder="Correo electrónico">
                             </div>
                             <div class="col-sm">
-                                <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
-                                  Empezar mi sitio ahora!
+                                <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                                  Solicitar mi website!
+                                </button>-->
+                                <!-- Principio del widget de enlace de Calendly -->
+                                <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                                    Solicitar presupuesto
                                 </button>
+                                <!-- Final del widget de enlace de Calendly -->
                             </div>
                         </div>
                     </form>
@@ -32,7 +37,7 @@
                     <div class="row">
                         <div class="col text-center">
                             <p class="text-white LinotteLight font-14 font-weight-light">
-                                Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                                Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                             </p>
                         </div>
                     </div>
@@ -47,7 +52,7 @@
             <div class="col-sm">
                 <div class="row wow slideInUp">
                     <div class="col-sm wow slideInLeft">
-                        <img class="offset-xl-1" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Empezar mi sitio web">
+                        <img title="Empieza tu sitio web ahora!" description="Crea un sitio web y empieza a captar leads" class="offset-xl-1" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Empezar mi sitio web">
                     </div>
                 </div>
             </div>
@@ -73,9 +78,12 @@
         <div class="space-50"></div>
         <div class="row">
             <div class="col-sm text-center offset-xl-5 wow slideInUp">
-                <button (click)="OpenTrial();" style="position: relative; left: -0.5em;" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button">
+                <!--<button (click)="OpenTrial();" style="position: relative; left: -0.5em;" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button">
                         Empezar mi web
-              </button>
+              </button>-->
+                <button mat-raised-button style="position: relative; left: -0.5em;" color="primary" class="btn-block col-5 LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                    Solicitar presupuesto
+            </button>
             </div>
         </div>
         <!-- end divider -->
@@ -147,7 +155,7 @@
         <div class="row">
             <div class="col-sm text-center">
                 <a href="https://www.syftedesigns.com" title="Brand logo">
-                    <img style="position: relative; left: 0.5em;" src="./assets/campaign/pages/768/logo-03.png" alt="Logotipo de marca de Syfte">
+                    <img description="Logo de Syfte designs" title="Syfte" style="position: relative; left: 0.5em;" src="./assets/campaign/pages/768/logo-03.png" alt="Logotipo de marca de Syfte">
                 </a>
             </div>
         </div>
@@ -168,9 +176,12 @@
                         <input ngModel required name="email" type="email" class="form-control LinotteRegular" placeholder="Correo electrónico">
                     </div>
                     <div class="col-sm">
-                        <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
+                        <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="submit">
                                 Empezar mi sitio ahora!!
-                      </button>
+                      </button>-->
+                        <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                            Solicitar presupuesto
+                    </button>
                     </div>
                 </div>
             </form>
@@ -179,7 +190,7 @@
         <div class="row">
             <div class="col text-center ">
                 <p class="text-white LinotteLight font-14 font-weight-light wow slideInLeft">
-                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                    Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                 </p>
             </div>
         </div>
@@ -198,19 +209,22 @@
                 </p>
             </div>
             <div class="col-md wow slideInRight">
-                <img class="img-thumbnail phone-tablet" src="./assets/campaign/pages/1920/webdesign-boost.png" alt="Impulsa tu negocio con un sitio web">
+                <img title="Diseños de website" description="Genera mas ventas con un diseño increible!" class="img-thumbnail phone-tablet" src="./assets/campaign/pages/1920/webdesign-boost.png" alt="Impulsa tu negocio con un sitio web">
             </div>
         </div>
         <div class="col-md order-md-1 wow slideInUp">
-            <img class="img-thumbnail bag-tablet phone-lg-tablet" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Cómo crear tu sitio web con diseño responsivo">
+            <img title="Diseños web responsives" description="Diseños web optimizados para dispositivos móviles" class="img-thumbnail bag-tablet phone-lg-tablet" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Cómo crear tu sitio web con diseño responsivo">
         </div>
         <div class="space-30"></div>
         <section class="offset-md-1 offset-lg-2 border-mg" style="border-top: 2px solid white; width: 80%;"></section>
         <div class="space-30"></div>
         <div class="col-md-7 col-lg-9 text-center offset-md-4 offset-lg-3 row-btn-mg wow slideInUp">
-            <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial btn-trial-mg" type="button">
+            <!--<button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-5 LinotteRegular btn-trial btn-trial-mg" type="button">
                     Empezar mi web
-          </button>
+          </button>-->
+            <button mat-raised-button color="primary" class="btn-block col-6 LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                Solicitar presupuesto
+        </button>
         </div>
         <!-- services -->
         <div class="space-70"></div>
@@ -278,7 +292,7 @@
         <div class="row">
             <div class="col text-center">
                 <a href="https://www.syftedesigns.com/" title="Go to home">
-                    <img src="./assets/campaign/pages/480/logo-03.png" alt="Logotipo de marca de Syfte">
+                    <img description="Logo de Syfte designs" title="Syfte" src="./assets/campaign/pages/480/logo-03.png" alt="Logotipo de marca de Syfte">
                 </a>
             </div>
         </div>
@@ -302,9 +316,12 @@
                     </mat-form-field>
                 </div>
                 <div class="col-sm text-center">
-                    <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="submit">
+                    <!--<button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="submit">
                             Empezar mi sitio ahora!!
-                  </button>
+                  </button>-->
+                    <button mat-raised-button color="primary" class="btn-block LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                        Solicitar presupuesto
+                </button>
                 </div>
             </form>
         </div>
@@ -313,14 +330,14 @@
         <div class="row wow slideInLeft">
             <div class="col-12">
                 <p class="text-white LinotteRegular font-14 text-center">
-                    Póngase en contacto con nosotros, no solicitaremos ningún tipo de información confidencial. Al ingresar sus datos, acepta recibir correos electrónicos de marketing de syfte.
+                    Reserva el dia y la hora que deseas que nuestro agente especializado se ponga en contacto con usted para discutir los detalles de su problema.
                 </p>
             </div>
         </div>
         <div class="space-30"></div>
         <div class="row wow slideInLeft">
             <div class="col text-center">
-                <img class="img-fluid" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Crea un sitio web increible">
+                <img title="Diseños web responsives" description="Diseños web optimizados para dispositivos móviles" class="img-fluid" src="./assets/campaign/pages/1920/webdesign-responsive.png" alt="Crea un sitio web increible">
             </div>
         </div>
         <div class="space-20"></div>
@@ -342,9 +359,12 @@
             </div>
             <div class="space-20"></div>
             <div style="position: relative; left: 0.7em;" class="col-sm text-center offset-1">
-                <button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button">
+                <!--<button (click)="OpenTrial();" mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button">
                         Empezar mi web
-              </button>
+              </button>-->
+                <button mat-raised-button color="primary" class="btn-block col-10 LinotteRegular btn-trial btn-trial-mg" type="button" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/syftedesigns-services/web'}); fbq('track', 'Schedule'); return false;">
+                    Solicitar presupuesto
+            </button>
             </div>
         </div>
         <!-- services -->
@@ -407,3 +427,4 @@
     <div class="space-100"></div>
 </section>
 <!-- end mobile -->
+<app-contact></app-contact>

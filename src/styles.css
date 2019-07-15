@@ -628,7 +628,6 @@ Custom theme
     .ads-theme-web {
         background-image: url(./assets/campaign/pages/480/bg-webdesign-mobile.jpg) !important;
         background-repeat: no-repeat;
-        background-size: cover
     }
 }
 
@@ -817,6 +816,10 @@ Custom theme
 
 .grecaptcha-badge {
     z-index: 1000 !important;
+}
+
+.mat-snack-bar-container {
+    max-width: 100% !important;
 }
 
 
